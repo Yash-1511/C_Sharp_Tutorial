@@ -39,3 +39,79 @@ namespace Tutorial
     }
 }
 ```
+## Variables And Constants
+
+- Variables : variables is a container for storing data values.
+- Constants : A constant is a value that cannot be changed
+
+To define a variable, We specify a type and a identifier:
+```cs
+int number = 5;
+```
+>**Remember:**<br>
+> in C#, you cannot read the value of a variable unless you have set it before.
+
+constants:
+```cs
+const float PI = 3.14;
+```
+
+## Primitive Types
+
+<img src="https://github.com/Yash-1511/C_Sharp_Tutorial/blob/master/images/primitive.png" height="240px">
+
+## Non-primitive Types
+
+<img src="https://github.com/Yash-1511/C_Sharp_Tutorial/blob/master/images/non_primitive.png" height="240px">
+
+## Overflowing
+- Each type, depending on the number of types allocated to it, can store a range of values.
+- If we 
+store a value in a variable, but that value exceeds the boundary of values for the underlying type, 
+overflow happens. 
+
+```cs
+byte b = 255;
+b = b + 1;
+```
+As a result of the second line, the value of b will be 0.
+
+## Comments
+
+```cs
+//this is single line comment.
+/* This is multiline 
+comment*/
+```
+
+## Operators
+
+- Arithmetic Operators
+- Assignment Operators
+- Comparison Operators
+- Logical Operators
+- Bitwise Opeartors
+
+1. Arithmetic Operators
+
+| Opearator  | Description |
+| ------------- | ------------- |
+|  +  | Addition  |
+|  -  | Subtraction  |
+|  *  | Multiplication  |
+|  /  | Division  |
+|  %  | Modulo  |
+|  ++  | Increment by 1  |
+|  --  | Decrement by 1  |
+
+2. Assignment Operators
+
+| Opearator  | Description |
+| ------------- | ------------- |
+|  +  | Addition  |
+|  -  | Subtraction  |
+|  *  | Multiplication  |
+|  /  | Division  |
+|  %  | Modulo  |
+|  ++  | Increment by 1  |
+|  --  | Decrement by 1  |
