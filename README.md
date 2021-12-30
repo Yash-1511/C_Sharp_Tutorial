@@ -87,8 +87,8 @@ comment*/
 ## Operators
 
 - Arithmetic Operators
-- Assignment Operators
 - Comparison Operators
+- Assignment Operators
 - Logical Operators
 - Bitwise Opeartors
 
@@ -104,14 +104,31 @@ comment*/
 |  ++  | Increment by 1  |
 |  --  | Decrement by 1  |
 
-2. Assignment Operators
+2. Comparison Operators
 
 | Opearator  | Description |
 | ------------- | ------------- |
-|  +  | Addition  |
-|  -  | Subtraction  |
-|  *  | Multiplication  |
-|  /  | Division  |
-|  %  | Modulo  |
-|  ++  | Increment by 1  |
-|  --  | Decrement by 1  |
+|  ==  | Equal to  |
+|  != | Not Equal  |
+|  >  | Greater than  |
+|  < | Less than  |
+|  >= | Greater than or equal to  |
+|  <=  | Less than or equal to  |
+
+3. Assignment Operators
+
+| Opearator  | Description |
+| ------------- | ------------- |
+|  =  | Assignment  |
+|  += | Addition Assignment  |
+|  -=  | Subtraction Assignment  |
+|  *= | Multiplication Assignment   |
+|  /= | Divisionn Assignment   |
+
+4. Logical Operators
+
+| Opearator  | Description |
+| ------------- | ------------- |
+|  &&  | AND  |
+|  | OR  |
+|  ! | NOT | 
